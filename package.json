@@ -1,0 +1,19 @@
+{
+  "name": "yangke.me",
+  "version": "1.0.0",
+  "description": "Personal CV website rebuild using npm and webpack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangke-nz/yangke.me.git"
+  },
+  "author": "Ke Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangke-nz/yangke.me/issues"
+  },
+  "homepage": "https://github.com/yangke-nz/yangke.me#readme"
+}
