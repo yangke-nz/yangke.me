@@ -34,7 +34,7 @@ h1 {
     width:50px;
     background-repeat: no-repeat; 
     background-position: center center; 
-    background-image: url('../images/logo-stamp.png'); 
+    background-image: url('./images/logo-stamp.png'); 
     text-indent: -999px;
     margin-left: 0 !important;
 }
@@ -111,7 +111,7 @@ section#contact {
     top: 60px;
     background-repeat: no-repeat; 
     background-position: center 0; 
-    background-image: url('../images/section-bg.png');
+    background-image: url('./images/section-bg.png');
 }
 #map {
     width: 100%;
@@ -120,7 +120,7 @@ section#contact {
     background-color: #212328;
     background-repeat: no-repeat; 
     background-position: center -330px; 
-    background-image: url('../images/map.png');
+    background-image: url('./images/map.png');
     position: fixed;
     bottom: 60px;
     z-index: -1;
