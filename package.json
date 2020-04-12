@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/yangke-nz/yangke.me/issues"
   },
-  "homepage": "https://github.com/yangke-nz/yangke.me#readme"
+  "homepage": "https://github.com/yangke-nz/yangke.me#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^3.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.12.4"
+  }
 }
