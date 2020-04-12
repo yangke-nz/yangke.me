@@ -73,6 +73,8 @@ footer {
     letter-spacing: 1px;
 }
 
+footer sub { display: block; margin-top: 5px; font-size: 12px;}
+
 section#home {
     height: 100vh;
     width: 100%;
@@ -97,6 +99,7 @@ section#works {
     padding: 100px 0;
     text-align: center;
 }
+
 section#contact {
     width: 100%;
     background: #f1f1f1;
@@ -194,71 +197,17 @@ section#contact {
 
 
 /*** work section ***/
+#works h1, #works h4, #works p {color: #f3f3f3;}
+#works .top-line div { border-color: #f1f1f1; }
 
-#works .row > .col-md-4 { margin-top: 15px; margin-bottom: 15px; }
-#works .row img.img-responsive { width:100%; }
-@media (max-width: 767px) { 
-	#works .row .col-xs-11 { margin-left: 4%; } 
-	}
-@media (min-width: 768px) and (max-width: 992px) {
-	.row .overlay span p { font-size:12px !important; }
-	.row .overlay span h4 { font-size:14px !important; }
-	}
-
-
-.row .overlay { 
-    position:relative; 
-    -webkit-backface-visibility: hidden;
-    backface-visibility:hidden;
-    overflow: hidden;
-    }
-.row .overlay span
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(33, 35, 40, 0.5);
-    height: 100%;
-    width: 100%;
-    display: none;
-}
-.row .overlay span h4 {
-    font-size: 18px;
-    color: #ffffff;
-    margin-top: 15%;
-}
-.row .overlay span p {
-    color: rgba(255, 255, 255, 0.7);
-    margin: 6% 2%;
-    font-size:14px;
-}
-.row .overlay span a {
-    color: #ffffff;
-    font-size:14px;
-    cursor: pointer;
-}
-.row .overlay:hover span { display: block; }
-.row .overlay:hover img
-{
-    -webkit-filter: blur(6px); 
-    -moz-filter: blur(6px); 
-    -o-filter: blur(6px); 
-    -ms-filter: blur(6px); 
-    filter: blur(6px); 
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-}
+#works .top-line span.title { color: #f3f3f3;}
+#works .top-line span.seperator { color: #dedede;}
+#works .top-line span.date { color: #dedede}
 
 /*** END work section ***/
 
 /*** contact section ***/
-.input-group { width: 100%; }
-
-@media (min-width: 768px) {
-    .form-inline .form-group {
-	margin-bottom: 10px;
-    }
-}
+#contact a {color: #8392A0; margin-left: 5px; }
 /*** END contact section ***/
 
 
@@ -274,32 +223,7 @@ header.mini-top { height: 70px; padding: 10px 0;}
 /*** end js related ***/
 
 /*** animation & extras ***/
-.modal-content { border-radius:0; background-color: #f8f8f8; }
 
-.tile {
-    float: left;
-    width: 32%;
-    max-width: 215px;
-    max-width: 24%;
-    height: auto;
-    margin-bottom: 10px;
-    border: 2px solid #e5e5e5;
-}
-
-.tile:hover {
-    z-index: 999;
-    transition: all 0.3s ease-out 0.2s;   
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
-}
-
-
-@media (min-width: 768px) {
-	.modal-dialog { width: 75%; max-width: 1050px; }
-}
 
 @-moz-keyframes goDownKeyframes {
 	0% { -moz-transform: translateY(0); }

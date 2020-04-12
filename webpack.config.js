@@ -36,6 +36,10 @@ module.exports = {
           use: 'file-loader?name=/fonts/[name].[ext]'
       },
       {
+          test: /\.ico$/, 
+          use: 'file-loader?name=/[name].[ext]'
+      },
+      {
           test: /\.svg$/, 
           use: 'url-loader?limit=10000&mimetype=image/svg+xml&name=/fonts/[name].[ext]'
       },
