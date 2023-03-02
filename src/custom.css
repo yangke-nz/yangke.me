@@ -93,6 +93,9 @@ section#about {
     text-align: center;
 }
 
+
+section#about a {color: #676767; }
+
 section#works {
     width: 100%;
     background: #8392A0;
